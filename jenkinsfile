@@ -1,0 +1,17 @@
+pipeline {
+  agent any
+  stages {
+     stage("Build image") {
+       sh "echo build image"
+       }
+    }
+     stage('Pull browser') {
+       sh "echo pull browser"
+     }
+     stage('Run tests') {
+       sh "echo run test"
+      	 }
+         }
+     }
+     }
+}
